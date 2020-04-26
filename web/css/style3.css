@@ -1,0 +1,1113 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url("../images/lightpaperfibers.png");
+}
+
+.body_home{
+    background-image: url("../images/black_paper.png");
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.9em;
+    color: #515151;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #D31D17;
+    font-size:28pt;
+}
+
+h4{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size:20pt;
+}
+
+.navbar {
+    padding: 40px 0 40px 0;
+    /*background-color: rgba(51,51,51,1);*/
+    margin-bottom: 0px; */
+    border: 0 none;
+    border-radius: 0px;
+    background-image: url("../images/black_paper.png");
+    z-index: 9;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+.navbar-toggler-icon{
+    background-image: url(../images/menu.svg) !important;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#sidebarCollapse{
+    background-color: transparent;
+}
+
+#sidebar {
+    width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    height: 100vh;
+    z-index: 99999999999999999999999999999999999999999999;
+    background:rgba(51, 51, 51, 1);
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    right: 0;
+}
+
+#dismiss {
+    text-align: right;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 18px;
+}
+
+.fermermenuprincipal{
+    padding: 10px 20px 0 0;
+}
+
+.menuprincipal{
+    padding: 10px;
+}
+
+.dividermenuprincipal{
+    margin: unset !important;
+    border-top: 1px solid #D31D17;
+}
+
+.itemmenuprincipal{
+    /*padding: 25px 0 25px 0;*/
+    background-color: transparent;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sponsors{
+    margin-top: 45px;
+    z-index: 1000;
+}
+.logosSponsors{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 50px;
+    margin: 0 10px 0 10px;
+}
+.logosSponsors:hover{
+    -webkit-filter: none; /* Safari 6.0 - 9.0 */
+    filter: none;
+    height: 50px;
+    margin: 0 10px 0 10px;
+}
+
+#dismiss:hover {
+    color: #D31D17;
+}
+
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    display: none;
+}
+
+#sidebar ul.components {
+    padding: 0px 0;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 20px;
+    font-size: 1.3em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #D31D17;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    /* color: rgba(51, 51, 51, 1); */
+    /* background: white; */
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    /* content: '\e259'; /* ajoute un chevron bas */
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+a[aria-expanded="true"]::before {
+    /* content: '\e260'; /* ajoute un chevron haut */
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+a.article, a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+.fonctions_laterales{
+    z-index: 100000;
+    position: fixed;
+    top: 225px;
+    right: 0px;
+    background-color:rgba(51,51,51,1);
+}
+
+.fonctions_laterales a{
+    background-color: transparent;
+    margin: 10px 10px 10px 0px;
+}
+
+.icon_fonctions_laterales{
+    width: 25px;
+    display: inline;
+}
+
+/* ---------------------------------------------------
+    HOMEPAGE
+----------------------------------------------------- */
+
+
+h1.titresHomePage{
+    font-family: 'Yanone Kaffeesatz Light', sans-serif;
+    color: #D31D17;
+    font-size:30pt;
+}
+
+
+@media (max-width: 767.98px) { 
+    h1.titresHomePage{
+        font-size:19pt;
+    }
+    h2.titresHomePage{
+        font-size:17pt !important;
+    }
+
+ }
+
+h2.titresHomePage{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    font-size:22pt;
+}
+
+.icon_login{
+    width: 35px;
+    position: absolute; 
+    right: 15px;
+    top: 15px;
+    /* float: right;*/
+    /* margin: 15px 15px;*/
+}
+.headHome{
+    text-align: center;
+}
+
+.logoAnticipationHome{
+    margin: auto;
+    width: 70%;
+    max-width: 632px;
+}
+
+.titresHomePage{
+    text-align: center;
+}
+
+.formRechercheHome{
+    /*width: 45%;*/
+    margin: auto;
+    display: flex;
+}
+
+.champRechercheHome{
+    /*width:80% !important;*/
+    border: none;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    background-color: white;
+    border-radius: 1px;
+    border: 1.5px solid #d31d17;
+    height: 55px;
+    margin-right:0px !important;
+}
+
+.btnRechercheHome{
+    margin-left:0px !important;
+    height: 55px;
+    /*width: 20%;*/
+    background-color: #d31d17;
+    border-radius: 1px;
+}
+
+.shortcutsHomeBtn{
+    margin: 5px;
+    border-radius: 1px;
+    background-color: #d31d17;
+}
+
+.shortcutsHome{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.menuprincipalHome{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom:45px;
+}
+
+.itemmenuprincipalHome{
+
+    background-color: transparent;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+}
+
+.itemmenuprincipalHome>a{
+    font-size: 18px;
+}
+
+.itemmenuprincipalHome>a:hover{
+    color: #D31D17;
+}
+.dividermenuprincipalHome{
+    margin: 12px 0 12px 0;
+    border-top: 1px solid #D31D17;
+}
+
+.logosSponsorsHome{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 37px;
+    margin: 0 10px 0 10px;
+}
+
+.logosSponsorsHome:hover{
+    -webkit-filter: none; /* Safari 6.0 - 9.0 */
+    filter: none;
+    height: 37px;
+    margin: 0 10px 0 10px;
+}
+
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+    width: 100%;
+    padding: 0px 0px 0 0px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logoAnticipation{
+    margin-top: -64px;
+    width: 350px;
+}
+
+
+.navbar-brand{
+    padding: 35px 15px 15px 0px;
+}
+
+.shortcuts-top>a{
+    padding-top: 15px;
+    color: white;
+}
+
+.shortcuts-top>a:hover{
+    color: #D31D17 !important;
+    padding-top: 15px;
+}
+
+.formRecherche{
+    border-bottom: 1px solid #cccccc;
+}
+
+.champRecherche{
+    border: none;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    background-color: transparent;
+}
+
+.container_fiche{
+    padding: 0 60px;
+    margin-top: 40px;
+    min-height: 75vh;
+}
+
+.row_principale{
+    padding-right: 0px;
+    /*background-image: url("../images/macaron.png");
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 600px;
+    background-repeat: no-repeat;*/
+    
+
+
+}
+
+.macaron_bg{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 22%;
+    opacity: 0.05;
+    z-index: 0;
+}
+
+
+/* ---------------------------------------------------
+      METADATA LIVRE
+----------------------------------------------------- */
+
+.metadata_fiche{
+    text-align: center;
+}
+.bordure_top{
+    margin-top: 45px;
+    margin-bottom: 30px;
+    border-top: solid 5px #D31D17;
+    border-bottom: solid 3px #D31D17;
+    height: 12px;
+    width: 100%;
+    transform: rotate(-1.5deg);
+    transform-origin: 0% 0%;
+}
+
+.bordure_bottom{
+    margin-top: 40px;
+    border-bottom: solid 5px #D31D17;
+    border-top: solid 3px #D31D17;
+    height: 12px;
+    width: 100%;
+    transform: rotate(-1.5deg);
+    transform-origin: 0% 0%;
+}
+
+.cover_book{
+    display: inline-block;
+    position: relative;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid black 4px;
+    margin-top: -40px;
+}
+.cover_book>img{
+    width: 100%;
+    height: auto;
+}
+
+.name_book{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40pt;
+    color: #D31D17;
+}
+
+.name_author{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
+    font-size: 23pt;
+    margin-top: 0px;
+}
+
+.date_publication{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
+    font-size: 14pt;
+}
+
+
+/* ---------------------------------------------------
+    RESUME ET STYLE GENERAL DES SOUS PARTIES
+----------------------------------------------------- */
+
+.symbole_paragraphe{
+    width:30px;
+	height:16px;
+	background:#D31D17;
+	-webkit-transform:rotate(110deg) skew(20deg);
+	-moz-transform:rotate(110deg) skew(20deg);
+	-o-transform:rotate(110deg) skew(20deg);
+    transform: rotate(110deg) skew(20deg);
+    display: flex;
+    margin-top: 110px;
+    margin-right: 10px;
+}
+
+.titres_fiche{
+    display: flex;
+    margin-top: 100px;
+}
+
+.img_link_book{
+    width: 20px;
+    display: inline;
+    margin-left: 8px;
+    opacity: 0.5;
+}
+
+.contenu_decale{
+    margin-left:42px;
+}
+
+.chrono-annee-muted, .chrono-annee, .alphabet, .sous_rubrique{
+    margin-top:60px;
+}
+
+.chrono-annee-muted, .chrono-annee, .alphabet, .sous_sous_rubrique{
+    margin-top:40px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:black;
+    font-size: 17pt;
+}
+
+.alphabet{
+    font-size: 34pt;
+}
+
+.chrono-annee:hover, .alphabet:hover{
+    color: #D31D17 !important;
+    background-color: transparent;
+}
+
+.semi_souligne{
+    width: 35px;
+    height: 10px;
+    border-top: #D31D17 solid 5px;
+    margin-top: -7px;
+}
+
+
+.container_citation{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+
+.date_and_quote_citation{
+    display: inline-block;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.date_div{
+    width: 34px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.date_citation{
+    display: inline-block;
+    font-size: 12pt;
+    width: 100%;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    color: #D31D17;
+    opacity: 0.5;;
+}
+
+.quotes{
+    width: 20px;
+    display: inline;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.quotes_sans_date{
+    width: 20px;
+    display: inline;
+    /*margin-left: 32px;
+    position: absolute;
+    left: 0px;
+    */
+    opacity: 0.5;
+
+
+}
+
+.img_infobulle{
+    width: 15px;
+    display: inline;
+    margin-left: 8px;
+     /*position: absolute;
+    left: 0px;
+    */
+    opacity: 0.5;
+
+
+}
+
+.trait_vertical_citation_date{
+    opacity: 0.5;
+    z-index: -200;
+    padding-bottom: 15px;
+    /*border-left: #D31D17 3px solid;*/
+    background-color: #D31D17;
+    height: 95%;
+    width: 4px;
+    margin-top: 10px;
+    margin-left:52px;
+}
+
+.trait_vertical_citation_sans_date{
+opacity: 0.5;
+z-index: -200;
+padding-bottom: 15px;
+border-left: #D31D17 3px solid;
+height: 100%;
+width: 4px;
+margin-top: 10px;
+margin-left: 8px;
+}
+
+
+.saut_de_ligne{
+    font-size: 1pt;
+    margin-bottom: -22px;
+}
+
+.saut_de_ligne_date{
+    font-size: 1pt;
+    margin-bottom: -16px;
+}
+
+.col_droite_citation_sans_date{
+    padding-left: 25px;
+}
+
+.col_gauche_citation_sans_date{
+    width: 20px !important;
+}
+
+.col_droite_citation_sans_date_sans_icon{
+    padding-left: 34px;
+    border-left: rgba(211,29,23,0.5) 3px solid;
+}
+
+.citation_sans_icon{
+    padding-left: 23px;
+}
+
+.col_gauche_citation{
+    width: 80px;
+}
+
+.col_gauche_citation, .col_droite_citation{
+    display:table-cell;
+    height: 100%;
+}
+
+.citation{
+    position: relative;
+    margin-bottom: 45px;
+    /*margin-left: -33px;*/
+    display: table;
+    height: 100%;
+}
+
+.text_citation{
+    font-size: 17pt;
+    margin-top: -7px;
+    font-style: italic;
+    font-family: 'Adamina', sans-serif;
+}
+
+.source_citation{
+    font-family: 'Nutino', sans-serif;
+    font-size: 10pt;
+}
+
+.less, .more{
+    font-size: 12pt;
+    color: #D31D17;
+}
+
+
+
+
+/* ---------------------------------------------------
+    EDITIONS RECEPTIONS 
+----------------------------------------------------- */
+
+.table_editions{
+   vertical-align: middle!important;
+   text-align: center;
+
+}
+
+.table_editions_col1,  .table_editions_col2, .table_editions_col3, .table_editions_col4, .table_editions_col6, .table_editions_col7, .table_editions_col8, .table_editions_col9, .table_editions_col11, .table_editions_col12, .table_editions_col13, .table_editions_col14, .table_editions_col15, .table_editions_col17, .table_editions_col18, .table_editions_col19, .table_editions_col20{
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+    
+}
+
+.table_editions_col5, .table_editions_col10{
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.table_editions_col16{
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.table_editions_col3{
+    /* display: none; */
+}
+
+.menu_selection_editions{
+    float: right;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.dropdown_item{
+    display: flex;
+    margin: 8px 0 0 0px;
+}
+
+.dropdown-menu{
+    padding: 15px;
+}
+
+#tableau_editions{
+    margin-bottom: 40px;
+}
+
+
+.auteur_lie{
+    font-size: 17pt;
+    margin-top: -7px;
+    font-style: italic;
+    font-family: 'Adamina', sans-serif;
+}
+
+.text_lien{
+    font-family: 'Nutino', sans-serif;
+    font-size: 10pt;
+}
+
+
+
+/* ---------------------------------------------------
+    POETIQUE
+----------------------------------------------------- */
+
+.text_reference{
+    font-size: 15pt;
+    margin-top: -7px;
+    font-weight: bold;
+    font-family: 'Adamina', sans-serif;
+}
+
+.citation_reference{
+    font-size: 13pt;
+    font-style: italic;
+    font-family: 'Adamina', sans-serif;
+}
+
+.liste_narration{
+    margin-top: 25px;
+    font-family: inherit;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #515151;
+}
+
+.liste_encadree{
+    border: black 2px solid;
+    padding: 29px 25px 22px 25px;
+    font-size: 1.1em;
+    margin: 20px 0 40px 0;
+    
+}
+.colonne_encadree{
+    /*list-style-position: inside;*/
+    list-style-type: none;
+    text-align: center;
+    line-height: 22pt;
+    margin: auto;
+    -webkit-padding-start: 0px;
+    padding-right: 0px;
+    font-weight: bold;
+}
+
+.colonne_encadree li{
+    list-style-type: none;
+}
+
+.colonne_encadree ul{
+    -webkit-padding-start: 0px;
+}
+
+
+.speech-bubble{
+    width: 50px;
+    display: block;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.liste_personnages{
+    display: table;
+    margin: 25px 0 40px 0;
+}
+
+.liste_personnages [class*="col-"]{
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.colonne_perso{
+    line-height: 22pt;
+    margin: auto;
+    padding: 25px;
+}
+
+.id_perso{
+    text-align: center;
+    background-color: black;
+}
+
+.specs_perso{
+    background-color: white;
+}
+
+.nom_perso{
+    font-size: 24px;
+    color: white;
+}
+
+.discipline_perso{
+    font-size: 18px;
+    color: white;
+}
+
+.divider_hori_perso{
+    width: 25px;
+    height: 2px;
+    border-bottom: #D31D17 5px solid;
+    margin: auto;
+}
+
+.rang_perso{
+    font-size: 16px;
+    color: white;
+}
+
+.caracteristiques_perso{
+    font-size: 16px;
+    color: black
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    SCIENCES
+----------------------------------------------------- */
+
+
+.icons_sciences{
+    width: 20px;
+    display: inline;
+    opacity: 0.5;
+}
+
+.sciences_citation{
+    font-size: 12pt;
+    font-style: italic;
+    font-family: 'Adamina', sans-serif;
+}
+
+.numero_page{
+    font-size: 7pt;
+    font-style: italic;
+    font-family: 'Adamina', sans-serif;
+}
+
+
+
+
+/* ---------------------------------------------------
+    BIBLIOGRAPHIE
+----------------------------------------------------- */
+
+.liens_biblio{
+    color: #D31D17
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    TAGS
+----------------------------------------------------- */
+
+
+.divider_fin{ 
+    border-top: #D31D17 5px solid;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.liste_tags button{
+    margin:10px 10px 0 0;
+}
+
+.liste_tags{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    FOOTER
+----------------------------------------------------- */
+
+
+.footer{
+    /*background-color: rgba(51, 51, 51, 1);*/
+    background-image: url("../images/black_paper.png");
+    width: 100%;
+    padding: 40px 25px;
+}
+
+.sponsors_footer .logosSponsors{
+    height: 30px;
+}
+
+.menu_footer{
+    display: flex;
+    color: white;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 32px;
+    right: 20px;
+    display:none;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    SIDEBAR SCROLLSPYING STYLE
+----------------------------------------------------- */
+#sidebarCollapse{
+    background-color: transparent;
+}
+
+.scrollSpy{
+    text-align: right;
+    position: fixed;
+    top: 25%;
+    right: 83vw;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15pt;
+    line-height: 1em;
+}
+
+@media (min-height: 600px) {
+    .scrollSpy{
+        top: 35% !important;
+
+    }
+}
+
+.logosBottom{
+    display: none !important;
+    }
+
+@media (min-height: 600px) {
+    .logosBottom{
+        position: fixed;
+        bottom: 5vh;
+        right: 83vw; 
+        display: block !important;
+    }
+}
+
+.logosBottom>a>img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 35px;
+    margin: 0 10px 0 10px;
+}
+
+.logosBottom>a>img:hover{
+    -webkit-filter: none; /* Safari 6.0 - 9.0 */
+    filter: none;
+    height: 35px;
+    margin: 0 10px 0 10px;
+
+}
+
+.contenuFiche{
+    position: relative;
+}
+
+.scrollSpy>a{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.scrollSpy>a:hover{
+    color: #D31D17 !important;
+    background-color: transparent;
+}
+
+.scrollSpy>a:active{
+    color: #D31D17 !important;
+}
+
+.sidebarLeft{
+    display: none !important;
+    margin-bottom: 0px;
+}
+
+@media (min-height: 400px) and (min-width: 768px) {
+    .sidebarLeft{
+        display: block !important;
+        /*background-color: rgba(51, 51, 51, 1);*/
+        background-image: url("../images/black_paper.png");
+    }
+}
+
+
+/* ---------------------------------------------------
+    JB
+----------------------------------------------------- */
+
+
+
+
+.titre{
+    background-color: aliceblue;
+}
+.maincontainer{
+    background-color: aqua;
+    display: grid;
+}
+.menugauche{
+    background-color: rgb(229, 255, 0);
+    display: grid;
+}
+
+
+.shortcuts-top{
+    align-content:flex-end;
+}
+
+

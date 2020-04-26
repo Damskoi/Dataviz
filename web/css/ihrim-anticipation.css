@@ -1,0 +1,86 @@
+/**************************************************************************/
+/*                                                                        */
+/* ihrim-anticipation.css - ajouts de styles pour le site                 */
+/*                                                                        */
+/**************************************************************************/
+
+.panel-anticipation-sous,
+.panel-anticipation {
+  /* border-color: #ebccd1; */
+  border-color: #cccccc;
+}
+.panel-anticipation-sous > .panel-heading a,
+.panel-anticipation-sous > .panel-heading {
+  background-color: #d31d17;
+}
+
+.panel-anticipation-sous > .panel-heading a,
+.panel-anticipation > .panel-heading a,
+.panel-anticipation-sous > .panel-heading,
+.panel-anticipation > .panel-heading {
+  /* color: #a94442; */
+  /* background-color: #f2dede; */
+  /* border-color: #ebccd1; */
+
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  /* font-size: 15pt; */
+  line-height: 1em;
+  /* color: white; */
+
+  color: #D31D17;
+  font-size: 28pt;
+  font-weight: normal;
+}
+.panel-anticipation > .panel-heading a,
+.panel-anticipation > .panel-heading {
+  /* background-image: url("../images/black_paper.png"); */
+  border-color: #cccccc;
+}
+.panel-anticipation-sous > .panel-heading a,
+.panel-anticipation-sous > .panel-heading {
+  background-color: #d31d17;
+  border-color: #d31d17;
+}
+
+.panel-anticipation-sous > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #d31d17;
+}
+
+.panel-anticipation > .panel-heading + .panel-collapse > .panel-body {
+  /* border-top-color: #ebccd1; */
+  border-top-color: #cccccc;
+}
+
+.panel-anticipation .panel-body {
+  background-image: url("../images/lightpaperfibers.png")
+}
+
+.panel-anticipation-sous > .panel-heading .badge,
+.panel-anticipation > .panel-heading .badge {
+  color: #f2dede;
+  background-color: #a94442;
+}
+.panel-anticipation-sous > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #d31d17;
+}
+.panel-anticipation > .panel-footer + .panel-collapse > .panel-body {
+  /* border-bottom-color: #ebccd1; */
+  border-bottom-color: #cccccc;
+}
+.panel-anticipation-sous > .panel-footer,
+.panel-anticipation > .panel-footer {
+  background-color: unset;
+}
+
+.panel-anticipation-sous .input-group-addon,
+.panel-anticipation-sous .form-control,
+.panel-anticipation .form-control,
+.panel-anticipation .input-group-addon {
+  background-color: white;
+}
+
+/* Surcharge de bootstrap */
+.nav-link {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

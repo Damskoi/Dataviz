@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Woahouaeou c trop bien D3.js</title>
+</head>
+<body>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <!-- Add a svg shape. Note that the 'target' class is attributed to the circle -->
+  <svg> 
+    <circle class="target" style="fill: #69b3a2" stroke="black" cx=50 cy=50 r=40></circle>
+  </svg>
+
+  <script type="module">
+  import graphe from "./tableau.js";
+  
+  var width = 5;
+  graphe(width);
+  
+  </script>
+</body>
+</html>

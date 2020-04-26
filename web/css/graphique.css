@@ -1,0 +1,110 @@
+#titre-graphique {
+color: #d31d17;
+margin: 15px 10px 0 10px;
+}
+
+#choix {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#information:hover {
+  cursor: help;
+}
+
+img.guide {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#underline:hover {
+  text-decoration: underline;
+}
+
+#titre {
+color: #d31d17;
+}
+
+div.alert-RechAvance {
+  margin: 10px 0px 20px 0px;
+}
+
+.on-right {
+  float: right;
+}
+
+div.boite-graphique {
+  text-align: center;
+  text-decoration: inherit;
+  border: 4px solid #d31d17;
+  border-radius: 3px;
+  margin: 10px 10px 10px 10px;
+  min-width: 25%;
+  min-height: 50%;
+  background-color: rgb(255, 255, 255, 0.4);
+}
+
+div.boite-graphique:hover {
+  background-color: rgba(209, 205, 212, 0.4);
+  cursor: pointer;
+}
+
+.btn-dark-red {
+  background-color: #d31d17;
+}
+
+.btn-dark-red:hover {
+  background-color: #b81a14;
+}
+
+h4 {
+  color: #d31d17;
+}
+
+div#inline {
+  background-color: red;
+}
+
+div.aide {
+  background-color: red;
+}
+
+#generation-graphique {
+  margin: 10px 10px 10px 10px;
+}
+
+div.selected {
+  background-color: rgba(101, 99, 103, 0.4);
+}
+
+div.selected:hover {
+  background-color: rgba(101, 99, 103, 0.5);
+}
+
+h2#titre{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #D31D17;
+    font-weight: bold;
+    font-size:30pt;
+}
+
+select:disabled {
+  color: gray;
+}
+
+img#img-graphique {
+  text-align: center;
+  width:100px;
+  height: 100px;
+  margin: 0 2% 2% 2%;
+}
+
+div.blocked {
+  cursor: not-allowed;
+}
